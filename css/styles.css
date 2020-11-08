@@ -611,6 +611,59 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.social-icons-dark {
+    display: flex;
+    margin-right: 10px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.social-icons-link-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 0;
+}
+
+.social-icons-svg-footer {
+    width: 20px;
+    height: 20px;
+    fill: var(--white);
+
+}
+
+.twitter-blue {
+    background-color: var(--accent-text-color);
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.footer-direction {
+    display: flex;    
+}
+
+.footer-contacts {
+    margin-right: 70px;
+}
+
+.join-text {
+    Font Family: Roboto
+    Font Style: 700
+    Font Size: 14px
+    Letter Spacing: 0.04em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
 /* 2 страница */
 .all-port {
     padding-top: 94px;
