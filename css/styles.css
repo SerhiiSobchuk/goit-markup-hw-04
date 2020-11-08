@@ -187,6 +187,7 @@ body {
     padding-left: 286px;
 }
 
+
 /* Page 1 section h1 + button */
 .hero {
     margin-left: auto;
@@ -387,8 +388,9 @@ body {
 .about-emp {
     display: flex;
     flex-direction: column;
-    width: 270px;
+    width: calc((100%-90px)/4);
     align-items: center;
+    background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -398,10 +400,12 @@ body {
 }
 
 .foto-emp {
+    display: block;
     border-radius: 0;   
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-bottom: 30px;
+    object-fit: cover;
 }
 
 .name-emp {
@@ -495,6 +499,7 @@ body {
     width: 44px;
     height: 49px;
     fill: #AFB1B8;
+    
 }
 
 .customers-icons-svg2 {
@@ -636,10 +641,6 @@ body {
 
 }
 
-.twitter-blue {
-    background-color: var(--accent-text-color);
-}
-
 .join {
     display: flex;
     flex-direction: column;
@@ -759,6 +760,10 @@ body {
     border: 0;
     padding: 6px 22px;
 }
+
+.page2-buttons:hover,
+.page2-buttons:focus {
+    background-color: var(--accent-text-color);
 
 /* p на 2 странице */
 .page2-p-h3 {
