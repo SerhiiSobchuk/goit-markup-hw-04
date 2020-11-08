@@ -336,7 +336,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-bottom: 16px;
+    margin-top: 0;
 }
 
 .ul-ot {
@@ -386,11 +386,112 @@ body {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+
 }
 
 .social-icons{
     display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
 }
+
+.social-icons-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-icons-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--white);
+    border-radius: 50%;
+}
+
+.instagram-bcg-blue {
+    background-color: var(--accent-text-color);
+}
+
+.instagram-color-white {
+    fill: var(--white);
+}
+
+.instagram-color-normal {
+    fill: #AFB1B8;
+}
+
+
+/* постоянные клиенты */
+.customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.regular-customers {
+    margin-bottom: 50px;
+}
+
+.customers-icons {
+    display: flex;
+    padding: 0;
+}
+
+.customers-list-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.customers-list-icon:not(:last-child) {
+    margin-right: 30px;
+}
+
+.customers-list-icon:nth-child(4) {
+    border: 1px solid #2196F3;
+}
+
+.customers-icons-svg1 {
+    width: 44px;
+    height: 49px;
+    fill: #AFB1B8;
+}
+
+.customers-icons-svg2 {
+    width: 40px;
+    height: 52px;
+    fill: #AFB1B8;
+}
+
+.customers-icons-svg3 {
+    width: 41px;
+    height: 43px;
+    fill: #AFB1B8;
+}
+
+.customers-icons-svg4 {
+    width: 80px;
+    height: 42px;
+    fill: #2196F3;
+}
+
+.customers-icons-svg5 {
+    width: 59px;
+    height: 47px;
+    fill: #AFB1B8;
+}
+
+.customers-icons-svg6 {
+    width: 88px;
+    height: 45px;
+    fill: #AFB1B8;
+}
+
 
 /* 1 страница, описание p для h3 */
 .page1-h3-p {
