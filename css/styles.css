@@ -266,6 +266,30 @@ body {
     display: flex;
     width: 270px;
 }
+
+.solutions-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.solutions-icons:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+
+.solutions-icons-svg {
+    width: 65px;
+    height: 70px;
+    Fill: Solid #212121;
+}
+
 /* все h3 с двух страниц + члены команды, робото 500 болд */
 .h3-all {
     font-family: Roboto;
