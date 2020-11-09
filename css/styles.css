@@ -118,6 +118,7 @@ body {
     color: var(--accent-text-color);
 }
 
+
 /* для header */
 .header-all {
     width: auto;
@@ -152,6 +153,22 @@ body {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+}
+
+.mail-link {
+    content: "";
+    color: #757575;
+}
+
+.mail-svg {
+    content: "";
+    Fill: Solid #757575
+}
+
+
+.mail-link:hover .mail-svg {
+    content: "";
+    fill: #2196f3;
 }
 
 /* Web + Studio */
@@ -202,9 +219,9 @@ body {
     background-size: cover;
     background-image: url(../images/hero-bcg.jpg), linear-gradient(
         to bottom,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-    );
+        rgba(47, 48, 58, 0.4) 50%,
+        rgba(47, 48, 58, 0.4) 50%)
+        ;
 }
 
 .hero-container {
@@ -453,6 +470,10 @@ body {
     background-color: var(--accent-text-color);
 }
 
+.social-icons-link:hover .social-icons-svg {
+    fill: var(--white);
+}
+
 .instagram-bcg-blue {
     background-color: var(--accent-text-color);
 }
@@ -495,15 +516,10 @@ body {
     margin-right: 30px;
 }
 
-.customers-list-icon:nth-child(4) {
-    border: 1px solid #2196F3;
-}
-
 .customers-icons-svg1 {
     width: 44px;
     height: 49px;
-    fill: #AFB1B8;
-    
+    fill: #AFB1B8;    
 }
 
 .customers-icons-svg2 {
@@ -521,7 +537,7 @@ body {
 .customers-icons-svg4 {
     width: 80px;
     height: 42px;
-    fill: #2196F3;
+    fill: #AFB1B8;
 }
 
 .customers-icons-svg5 {
@@ -536,6 +552,33 @@ body {
     fill: #AFB1B8;
 }
 
+.customers-list-icon:hover {
+    border: 1px solid var(--accent-text-color);
+}
+
+.customers-list-icon:hover .customers-icons-svg1 {
+    fill: var(--accent-text-color);
+}
+
+.customers-list-icon:hover .customers-icons-svg2 {
+    fill: var(--accent-text-color);
+}
+
+.customers-list-icon:hover .customers-icons-svg3 {
+    fill: var(--accent-text-color);
+}
+
+.customers-list-icon:hover .customers-icons-svg4 {
+    fill: var(--accent-text-color);
+}
+
+.customers-list-icon:hover .customers-icons-svg5 {
+    fill: var(--accent-text-color);
+}
+
+.customers-list-icon:hover .customers-icons-svg6 {
+    fill: var(--accent-text-color);
+}
 
 /* 1 страница, описание p для h3 */
 .page1-h3-p {
@@ -742,20 +785,6 @@ body {
 }
 
 /* 2 страница кнопки */
-.page2-button-vse {
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    background-color: #2196F3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    border: 0;
-    padding: 6px 22px;
-}
-
 .page2-buttons {
     font-family: Roboto;
     font-weight: 500;
@@ -772,6 +801,11 @@ body {
 .page2-buttons:hover,
 .page2-buttons:focus {
     background-color: var(--accent-text-color);
+}
+
+.page2-buttons:hover {
+    color: #ffffff;
+}
 
 /* p на 2 странице */
 .page2-p-h3 {
