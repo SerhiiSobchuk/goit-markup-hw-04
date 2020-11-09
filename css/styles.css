@@ -153,6 +153,12 @@ body {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    Fill: Solid #757575;
+}
+
+.phone-svg:hover {
+    content: "";
+    fill: var(--accent-text-color);
 }
 
 .mail-link {
@@ -169,6 +175,12 @@ body {
 .mail-svg:hover {
     fill: var(--accent-text-color);
 }
+
+.phone-link {
+    color: #757575;
+}
+
+
 
 /* Web + Studio */
 .header-logo {
