@@ -162,6 +162,7 @@ body {
 }
 
 .mail-link {
+    display: flex;
     content: "";
     color: #757575;
 }
@@ -177,10 +178,20 @@ body {
 }
 
 .phone-link {
+    display: flex;
+    content: "";
     color: #757575;
 }
 
+.phone-link:hover .phone-svg {
+    content: "";
+    fill: var(--accent-text-color);
+}
 
+.mail-link:hover .mail-svg {
+    content: "";
+    fill: var(--accent-text-color);
+}
 
 /* Web + Studio */
 .header-logo {
@@ -228,11 +239,12 @@ body {
     background-repeat: no-repeat;  
     background-position: center;  
     background-size: cover;
-    background-image: url(../images/hero-bcg.jpg), linear-gradient(
+    background-attachment: auto;
+    background-image: linear-gradient(
         to bottom,
         rgba(47, 48, 58, 0.4) 50%,
-        rgba(47, 48, 58, 0.4) 50%)
-        ;
+        rgba(47, 48, 58, 0.4) 50%),
+        url(../images/hero-bcg.jpg);
 }
 
 .hero-container {
